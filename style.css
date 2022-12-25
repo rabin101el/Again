@@ -4,14 +4,21 @@ html, body {
   height: 100%;
   width: 100%;
 }
+body{
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.mai{
+  color: white;
+}
 h1{
   text-align: center;
 }
 .nav ul{
   display: flex;
   justify-content: space-between;
-  background-color: #00ff3d;
-  color: #fcfcfc;
+  
+  color: white;
 }
 .nav ul li{
   list-style: none;
@@ -47,8 +54,11 @@ h1{
   position: absolute;
   font-weight: bold;
   top: 200px;
+  color: white;
+  
   left: 130px;
   font-family: 'Noto Sans Display', sans-serif;
+  
 }
 .pr{
   position: absolute;
